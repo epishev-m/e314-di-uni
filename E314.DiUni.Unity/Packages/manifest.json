@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "com.e314.di": "1.0.0",
+    "com.e314.di-uni": "file:../../UPM",
+    "com.e314.ext-uni": "1.0.0",
+    "com.unity.ide.rider": "3.0.34",
+    "com.unity.test-framework": "1.4.6"
+  },
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.e314"
+      ],
+      "overrideBuiltIns": false
+    }
+  ]
+}
