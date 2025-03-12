@@ -1,6 +1,6 @@
-# E314.DI.Uni
+# E314.DiUni
 
-The `E314.DI.Uni` module ...
+The `E314.DiUni` module ...
 
 ## Installation
 

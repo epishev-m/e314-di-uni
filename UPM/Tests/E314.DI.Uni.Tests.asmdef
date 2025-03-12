@@ -2,7 +2,8 @@
     "name": "E314.DI.Uni.Tests",
     "rootNamespace": "E314.DI.Uni.Tests",
     "references": [
-        "E314.DI.Uni"
+        "E314.DI.Uni",
+        "E314.DI"
     ],
     "includePlatforms": [
         "Editor"

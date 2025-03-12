@@ -1,7 +1,12 @@
 {
     "name": "E314.DI.Uni",
     "rootNamespace": "E314.DI.Uni",
-    "references": [],
+    "references": [
+        "E314.ExtUni",
+        "E314.DI",
+        "E314.Protect",
+        "E314.DataTypes"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -7,7 +7,6 @@
   - [Compatibility](#compatibility)
   - [Unity Package Manager. Git URL](#unity-package-manager-git-url)
     - [Unity Package Manager. OpenUPM](#unity-package-manager-openupm)
-  - [NuGet](#nuget)
 
 ## Compatibility
 
@@ -36,19 +35,5 @@ https://openupm.com/packages/com.e314.di-uni.html
 4. Click Apply.
 5. Open Window → Package Manager.
 6. Click on the + button → Add package by name...
-7. Enter the Name `com.e314.di.uni` and Version `1.0.0`.
+7. Enter the Name `com.e314.di-uni` and Version `1.0.0`.
 8. Click Add.
-
-## NuGet
-
-```ps1
-https://www.nuget.org/packages/E314.DI.Uni
-```
-
-1. Open the command line.
-2. Navigate to the directory containing the project file.
-3. Run the command to install the NuGet package:
-
-```sh
-dotnet add package E314.DI.Uni -v 1.0.0
-```

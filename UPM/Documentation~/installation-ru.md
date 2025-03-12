@@ -7,7 +7,6 @@
   - [Совместимость](#совместимость)
   - [Unity Package Manager. Git URL](#unity-package-manager-git-url)
   - [Unity Package Manager. OpenUPM](#unity-package-manager-openupm)
-  - [NuGet](#nuget)
 
 ## Совместимость
 
@@ -36,19 +35,5 @@ https://openupm.com/packages/com.e314.di-uni.html
 4. Нажать Apply.
 5. Открыть Window → Package Manager.
 6. Нажать на + button → Add package by name...
-7. Введите Имя `com.e314.di.uni` и Версию `1.0.0`.
+7. Введите Имя `com.e314.di-uni` и Версию `1.0.0`.
 8. Нажмите Add.
-
-## NuGet
-
-```ps1
-https://www.nuget.org/packages/E314.DI.Uni
-```
-
-1. Открыть командную строку
-2. Перейти в каталог, в котором находится файл проекта.
-3. Выполнить команду для установки пакета NuGet:
-
-```sh
-dotnet add package E314.DI.Uni -v 1.0.0
-```
