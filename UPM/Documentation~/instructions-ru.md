@@ -40,11 +40,6 @@ public sealed class GameRootContext : RootContext
         // Определите здесь привязки для контейнера
     }
 
-    protected override void Configure()
-    {
-        // Дополнительная конфигурация
-    }
-
     protected override void Run()
     {
         // Основная логика после инициализации
@@ -67,11 +62,6 @@ public sealed class GameSceneContext : SceneContext
     protected override void Bind(IDiContainer container)
     {
         // Определите здесь привязки для контейнера сцены
-    }
-
-    protected override void Configure()
-    {
-        // Дополнительная конфигурация
     }
 
     protected override void Run()

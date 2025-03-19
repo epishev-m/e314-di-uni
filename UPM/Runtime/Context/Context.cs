@@ -33,11 +33,6 @@ public abstract class Context : MonoBehaviour, IDisposable
 	protected abstract void Bind(IDiContainer container);
 
 	/// <summary>
-	/// Performs additional configuration after bindings are defined.
-	/// </summary>
-	protected abstract void Configure();
-
-	/// <summary>
 	/// Starts the main context logic after initialization.
 	/// </summary>
 	protected abstract void Run();
@@ -57,7 +52,6 @@ public abstract class Context : MonoBehaviour, IDisposable
 		_container = CreateContainer();
 		Requires.Ensure(_container != null, "Container is null.");
 		Bind(_container);
-		Configure();
 	}
 
 	/// <summary>

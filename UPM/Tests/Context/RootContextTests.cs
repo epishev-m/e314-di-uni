@@ -28,7 +28,7 @@ internal sealed class RootContextTests
 	public void Context_MethodsCalledInCorrectOrder()
 	{
 		// Accept
-		var expectedOrder = new List<string> { "Bind", "Configure", "Run" };
+		var expectedOrder = new List<string> { "Bind", "Run" };
 
 		// Act
 		_context.TestAwake();
@@ -49,11 +49,6 @@ internal sealed class RootContextTests
 		protected override void Bind(IDiContainer container)
 		{
 			_callOrder.Add("Bind");
-		}
-
-		protected override void Configure()
-		{
-			_callOrder.Add("Configure");
 		}
 
 		protected override void Run()

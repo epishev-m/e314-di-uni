@@ -12,11 +12,6 @@ public sealed class GameSceneContext : SceneContext
 		Debug.Log("GameSceneContext initialized");
 	}
 
-	protected override void Configure()
-	{
-		Debug.Log("GameSceneContext configure");
-	}
-
 	protected override void Run()
 	{
 		Debug.Log("GameSceneContext run");

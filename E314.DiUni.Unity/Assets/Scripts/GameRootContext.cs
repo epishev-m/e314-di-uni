@@ -12,11 +12,6 @@ public sealed class GameRootContext : RootContext
 		Debug.Log("GameRootContext initialized");
 	}
 
-	protected override void Configure()
-	{
-		Debug.Log("GameRootContext configure");
-	}
-
 	protected override void Run()
 	{
 		Debug.Log("GameRootContext run");

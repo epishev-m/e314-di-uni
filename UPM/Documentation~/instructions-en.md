@@ -22,7 +22,6 @@ Currently, the context system is implemented, and new modules are planned to be 
 It provides core functionality for setting up and managing the dependency container:
 
 - `Bind(IDiContainer container)` - defines bindings for the dependency container
-- `Configure()` - performs additional configuration after defining bindings
 - `Run()` - executes the main context logic after initialization
 
 ### RootContext
@@ -38,11 +37,6 @@ public sealed class GameRootContext : RootContext
     protected override void Bind(IDiContainer container)
     {
         // Define your container bindings here
-    }
-
-    protected override void Configure()
-    {
-        // Additional configuration
     }
 
     protected override void Run()
@@ -67,11 +61,6 @@ public sealed class GameSceneContext : SceneContext
     protected override void Bind(IDiContainer container)
     {
         // Define your scene container bindings here
-    }
-
-    protected override void Configure()
-    {
-        // Additional configuration
     }
 
     protected override void Run()
